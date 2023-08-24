@@ -2,7 +2,7 @@ import React from 'react';
 
 const FoodHandler = () => {
   return (
-    <h1>FoodHandler</h1>
+    <h1>Food Handler</h1>
   )
 }
 
