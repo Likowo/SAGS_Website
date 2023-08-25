@@ -1,7 +1,12 @@
+//Part 3  Add Folders to Organize the Express Server Code (config, routes, models and controllers)
+//Install and Mount the dotenvMiddleware
+require('dotenv').config(); // Always require and configure near the top
+const logger = require('morgan');
+//Part2
 const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
-const logger = require('morgan');
+
 
 const app = express();
 
